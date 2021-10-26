@@ -1,7 +1,9 @@
-#include <iostream>
-int main(void)
+#include <stdio.h>
+ 
+int main()
 {
-    std::cout << "This is a native C++ program." << std::endl;
-    std::cout << "hello world." << std::endl;
+    /* 我的第一个 C 程序 */
+    printf("Hello, World! \n");
+ 
     return 0;
 }
